@@ -13,7 +13,7 @@ def send_message(message):
 
 @bot.message_handler(commands=["hashan"])
 def send_message(message):
-        bot.reply_to(message,"My Master is in Telegram @HashanDimuthu")
+        bot.reply_to(message,"𝓜𝔂 𝓜𝓪𝓼𝓽𝓮𝓻 𝓲𝓼 𝓲𝓷 𝓣𝓮𝓵𝓮𝓰𝓻𝓪𝓶 @HashanDimuthu")
 
 @bot.message_handler(commands=["website"])
 def send_message(message):
