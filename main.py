@@ -19,4 +19,8 @@ def send_message(message):
 def send_message(message):
         bot.reply_to(message, "https://hashandimuthu.github.io")
 
+@bot.message_handler(commands=["about"])
+def send_message(message):
+        bot.reply_to(message, "Hello I Am Hashan I Am 16 Years Old I Am A Devloper From Sri Lanka I Am A Student Yet I Am Learning Some Programming Languages There Are Java And Python I Want To Be A Full Stack DEVLOPER And I Am Looking To Help You")
+
 bot.polling()
