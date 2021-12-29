@@ -9,7 +9,7 @@ def send_welcome(message):
 
 @bot.message_handler(commands=["youtube"])
 def send_message(message):
-	bot.reply_to(message,"https://www.youtube.com/channel/UCMb9Rcf7mh71x9glgb5oR8A")
+	bot.reply_to(message,"𝓣𝓱𝓲𝓼 𝓲𝓼 𝓶𝔂 𝓨𝓸𝓾𝓣𝓾𝓫𝓮 \n\n https://www.youtube.com/channel/UCMb9Rcf7mh71x9glgb5oR8A")
 
 @bot.message_handler(commands=["hashan"])
 def send_message(message):
@@ -17,7 +17,7 @@ def send_message(message):
 
 @bot.message_handler(commands=["website"])
 def send_message(message):
-        bot.reply_to(message,"https://hashandimuthu.github.io")
+        bot.reply_to(message,"𝓣𝓱𝓲𝓼 𝓲𝓼 𝓶𝔂 𝔀𝓮𝓫𝓼𝓲𝓽𝓮 \n\n https://hashandimuthu.github.io")
 
 @bot.message_handler(commands=["about"])
 def send_message(message):
