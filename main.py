@@ -15,4 +15,8 @@ def send_message(message):
 def send_message(message):
         bot.reply_to(message, "My Master is in Telegram @HashanDimuthu")
 
+@bot.message_handler(commands=["website"])
+def send_message(message):
+        bot.reply_to(message, "https://hashandimuthu.github.io")
+
 bot.polling()
