@@ -9,6 +9,10 @@ def send_welcome(message):
 
 @bot.message_handler(commands=["youtube"])
 def send_message(message):
-	bot.send_message.(message.chat.id "https://www.youtube.com/channel/UCMb9Rcf7mh71x9glgb5oR8A")
+	bot.reply_to(message,"https://www.youtube.com/channel/UCMb9Rcf7mh71x9glgb5oR8A")
+
+@bot.message_handler(commands=["hashan"])
+def send_message(message):
+        bot.reply_to(message, "My Master is in Telegram @HashanDimuthu")
 
 bot.polling()
