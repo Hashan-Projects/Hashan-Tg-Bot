@@ -3,7 +3,7 @@
 import os
 import telebot
 
-bot = telebot.Telebot("API Key here")
+bot = telebot.Telebot("5004658830:AAESzQtaSVyO41Lh1SDU5BZQxvli36koZ2o")
 
 @bot.message_handler(commands=["start"])
 def send_welcome(message):
